@@ -1,0 +1,23 @@
+##
+## DO NOT MODIFY THIS FILE BY HAND!
+##
+"Add Resource"=>"增加资源",
+"All Resources"=>"所有资源",
+"Description"=>"描述",
+"Details"=>"详细",
+"Equipment"=>"固定资产",
+"ID"=>"ID",
+"Max Alloc %"=>"最大分配比例",
+"Max Allocation %"=>"最大分配比例",
+"Maximum Allocation Percentage"=>"最大分配比例",
+"Notes"=>"注释",
+"Resource ID"=>"资源ID",
+"Resource Name"=>"资源名称",
+"Tool"=>"工具",
+"Type"=>"类型",
+"Venue"=>"地点",
+"back"=>"返回",
+"doDelete"=>"删除",
+"new resource"=>"新建资源",
+"resource list"=>"资源列表",
+"submit"=>"提交",
