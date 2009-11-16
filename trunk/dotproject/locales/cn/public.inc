@@ -1,0 +1,22 @@
+##
+## DO NOT MODIFY THIS FILE BY HAND!
+##
+"Access Denied"=>"拒绝访问",
+"Allowed Companies"=>"被授权公司",
+"Color Selector"=>"选择颜色器",
+"Contacts for"=>"联系人,用于",
+"Continue"=>"继续",
+"Current Password"=>"当前密码",
+"New Password"=>"新密码",
+"Preset"=>"预置",
+"Repeat New Password"=>"重复新密码",
+"View all allowed companies"=>"查看所有被授权公司",
+"[none]"=>"[无]",
+"accessDeniedMsg"=>"<p>你无权进行此操作,</p><p>请与系统管理员联系.</p>",
+"chgpwLogin"=>"",
+"chgpwUpdated"=>"",
+"chgpwWrongPW"=>"",
+"colorLegend"=>"请选择一种颜色来唯一标识你的选择,然后关闭颜色选择器.",
+"nodepartments, companies, permissions"=>"没有任何部门, 公司, 权限.",
+"notasks"=>"无可用任务",
+"submit"=>"提交",
