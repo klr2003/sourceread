@@ -75,7 +75,7 @@ if (version_compare(PHP_VERSION, "5.0.0", "ge") && substr(PHP_OS, 0, 3) != "WIN"
 
 // PMA - [2006-01-25] Nicola Asuni - www.tecnick.com: maybe the PHP directive
 // session.save_handler is set to another value like "user"
-@ini_set("session.save_handler", "files");
+//@ini_set("session.save_handler", "files");
 
 // Start the session
 // PMA - On some servers (for example, sourceforge.net), we get a permission error on the session data directory, so prefix with @
