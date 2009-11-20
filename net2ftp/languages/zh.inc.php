@@ -38,7 +38,7 @@
 //  |  sign, for example %1\$s or %2\$s. The English message, for example           |
 //  |     $messages[...] = ["The file %1\$s was copied to %2\$s "]                  |
 //  |  should becomes after translation:                                            |
-//  |     $messages[...] = ["Le fichier %1\$s a �t� copi� vers %2\$s "]             |
+//  |     $messages[...] = ["Le fichier %1\$s a �t� copi� vers %2\$s "]             |
 //  |                                                                               |
 //  |  When a real percent sign % is needed in the text it is entered as %%         |
 //  |  otherwise it is interpreted as a variable. So no, it's not a mistake.        |
@@ -73,6 +73,7 @@ $net2ftp_messages["right"] = "right";
 
 // Encoding
 $net2ftp_messages["iso-8859-1"] = "UTF-8";
+
 
 
 // -------------------------------------------------------------------------
@@ -591,7 +592,7 @@ $net2ftp_messages["FTP server port"] = "FTP 服务器端口";
 $net2ftp_messages["Username"] = "用户名";
 $net2ftp_messages["Password"] = "密码";
 $net2ftp_messages["Password length"] = "密码长度";
-$net2ftp_messages["Passive mode"] = "Passive 模式";
+$net2ftp_messages["Passive mode"] = "被动模式";
 $net2ftp_messages["Directory"] = "目录";
 $net2ftp_messages["Printing the result"] = "Printing the result";
 
@@ -701,8 +702,8 @@ $net2ftp_messages["If you need unlimited usage, please install net2ftp on your o
 $net2ftp_messages["New dir"] = "新目录";
 $net2ftp_messages["New file"] = "新文件";
 $net2ftp_messages["HTML templates"] = "HTML templates";
-$net2ftp_messages["Upload"] = "上�";
-$net2ftp_messages["Java Upload"] = "Java 上�";
+$net2ftp_messages["Upload"] = "上�";
+$net2ftp_messages["Java Upload"] = "Java 上�";
 $net2ftp_messages["Flash Upload"] = "Flash Upload";
 $net2ftp_messages["Install"] = "Install";
 $net2ftp_messages["Advanced"] = "高级";
@@ -1035,7 +1036,7 @@ $net2ftp_messages["Number of files:"] = "Number of files:";
 $net2ftp_messages["Size of files:"] = "Size of files:";
 $net2ftp_messages["Add"] = "Add";
 $net2ftp_messages["Remove"] = "Remove";
-$net2ftp_messages["Upload"] = "上�";
+$net2ftp_messages["Upload"] = "上�";
 $net2ftp_messages["Add files to the upload queue"] = "Add files to the upload queue";
 $net2ftp_messages["Remove files from the upload queue"] = "Remove files from the upload queue";
 $net2ftp_messages["Upload the files which are in the upload queue"] = "Upload the files which are in the upload queue";
@@ -1091,7 +1092,7 @@ $net2ftp_messages["Port"] = "Port";
 $net2ftp_messages["Username"] = "用户名";
 $net2ftp_messages["Password"] = "密码";
 $net2ftp_messages["Anonymous"] = "匿名";
-$net2ftp_messages["Passive mode"] = "Passive 模式";
+$net2ftp_messages["Passive mode"] = "被动模式";
 $net2ftp_messages["Initial directory"] = "初始目录";
 $net2ftp_messages["Language"] = "语言";
 $net2ftp_messages["Skin"] = "皮肤";
@@ -1099,7 +1100,7 @@ $net2ftp_messages["FTP mode"] = "FTP 模式";
 $net2ftp_messages["Automatic"] = "Automatic";
 $net2ftp_messages["Login"] = "登入";
 $net2ftp_messages["Clear cookies"] = "清除cookies";
-$net2ftp_messages["Admin"] = "Admin";
+$net2ftp_messages["Admin"] = "管理后台";
 $net2ftp_messages["Please enter an FTP server."] = "Please enter an FTP server.";
 $net2ftp_messages["Please enter a username."] = "Please enter a username.";
 $net2ftp_messages["Please enter a password."] = "Please enter a password.";
