@@ -84,7 +84,9 @@ function net2ftp_module_printCss() {
 	global $net2ftp_settings, $net2ftp_globals;
 
 // Include
-	echo "<link rel=\"stylesheet\" type=\"text/css\" href=\"". $net2ftp_globals["application_rootdir_url"] . "/skins/" . $net2ftp_globals["skin"] . "/css/main.css.php?ltr=" . __("ltr") . "&amp;image_url=" . urlEncode2($net2ftp_globals["image_url"]) . "\" />\n";
+	//直接跳转到登录页面
+	//echo "<link rel=\"stylesheet\" type=\"text/css\" href=\"". $net2ftp_globals["application_rootdir_url"] . "/skins/" . $net2ftp_globals["skin"] . "/css/main.css.php?ltr=" . __("ltr") . "&amp;image_url=" . urlEncode2($net2ftp_globals["image_url"]) . "\" />\n";
+	header('Location:'.$net2ftp_globals["application_rootdir_url"].'/index.php');
 
 } // end net2ftp_printCssInclude
 
