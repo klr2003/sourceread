@@ -181,9 +181,10 @@ function __() {
 	else { return "MESSAGE NOT FOUND"; }
 
 	$sprintf_argument = "\$translated_string = sprintf(\$string_with_percents";
-
+    
+	//解决了上传和显示文件title提示时的乱码问题
 	for ($i=1; $i<$numargs; $i++) {
-		$sprintf_argument .= ",  @htmlentities(\$args[$i], ENT_QUOTES)";
+		$sprintf_argument .= ",  @htmlentities(\$args[$i], ENT_QUOTES,\"utf-8\")";
 	} // end for
 
 	$sprintf_argument .= ");";

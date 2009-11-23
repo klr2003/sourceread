@@ -1742,6 +1742,9 @@ function acceptFiles($uploadedFilesArray) {
 // 1 -- Get the data from the filesArray (for each file, its location, name, size, ftpmode
 // -------------------------------------------------------------------------
 		$file_name     = $uploadedFilesArray["$i"]["name"];
+		//filename转化编码
+		//$file_name=iconv("UTF-8","gbk",$file_name); 
+		
 		$file_tmp_name = $uploadedFilesArray["$i"]["tmp_name"];
 		$file_size     = $uploadedFilesArray["$i"]["size"];
 
@@ -2744,7 +2747,7 @@ function htmlEncode2($string) {
 
 // --------------
 // This function HTML-encodes a string with *htmlspecialchars* to print it on a page.
-// Only some special characters are encoded, otherwise special characters (e.g. �) appear encoded (&eacute).
+// Only some special characters are encoded, otherwise special characters (e.g. �) appear encoded (&eacute).
 // --------------
 
 	$isocode = __("iso-8859-1");
