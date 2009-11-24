@@ -527,7 +527,9 @@ function ftp_readfile($conn_id, $directory, $file) {
 	global $net2ftp_globals, $net2ftp_result;
 
 	$source = glueDirectories($directory, $file);
-
+	//设置脚本执行的时间可以任意长
+   @set_time_limit(0);
+	
 // Step 1/4: Create a temporary filename
 	$tempfilename = tempnam($net2ftp_globals["application_tempdir"], "read__");
 	if ($tempfilename == false)  { 
