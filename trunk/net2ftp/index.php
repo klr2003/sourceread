@@ -26,6 +26,8 @@ define("NET2FTP_APPLICATION_ROOTDIR", dirname(__FILE__));
 if     (isset($_SERVER["SCRIPT_NAME"]) == true) { define("NET2FTP_APPLICATION_ROOTDIR_URL", dirname($_SERVER["SCRIPT_NAME"])); }
 elseif (isset($_SERVER["PHP_SELF"]) == true)    { define("NET2FTP_APPLICATION_ROOTDIR_URL", dirname($_SERVER["PHP_SELF"])); }
 
+//var_dump($_POST);
+
 // ------------------------------------------------------------------------
 // 2. Include the file /path/to/net2ftp/main.inc.php
 // ------------------------------------------------------------------------
@@ -35,6 +37,7 @@ require_once("./main.inc.php");
 // 3. Execute net2ftp($action). Note that net2ftp("sendHttpHeaders") MUST 
 //    be called once before the other net2ftp() calls!
 // ------------------------------------------------------------------------
+//var_dump($_POST);
 net2ftp("sendHttpHeaders");
 if ($net2ftp_result["success"] == false) {
 	require_once("./skins/blue/error_wrapped.template.php");
@@ -52,7 +55,7 @@ if ($net2ftp_result["success"] == false) {
 <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
 <link rel="shortcut icon" href="favicon.ico" />
 <link rel="apple-touch-icon" href="favicon.png"/>
-<title>net2ftp - a web based FTP client</title>
+<title>商务中国在线文件目录管理</title>
 <?php net2ftp("printJavascript"); ?>
 <?php net2ftp("printCss"); ?>
 </head>
